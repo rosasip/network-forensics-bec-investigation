@@ -1,10 +1,7 @@
 ## Network Forensics: Business Email Compromise Investigation
 
-**Tools:** Wireshark · tshark · SMTP Analysis · Network Forensics  
-**Skills:** Packet Analysis · Threat Identification · Email Protocol Forensics  
----
 
-## Overview
+### Overview
 
 This project simulates a real-world **Business Email Compromise (BEC)** investigation. 
 Given four packet capture (.pcap) files taken on different days, I analyzed network 
@@ -16,7 +13,7 @@ this a highly relevant and practical forensics skill.
 
 ---
 
-## Objectives
+### Objectives
 
 - Identify malicious SMTP traffic across multiple .pcap files
 - Extract phishing email content using Wireshark/tshark
@@ -25,7 +22,7 @@ this a highly relevant and practical forensics skill.
 
 ---
 
-## Tools & Environment
+### Tools & Environment
 
 - **Wireshark / tshark** — packet capture analysis
 - **Ubuntu Linux** — analysis environment
@@ -33,7 +30,7 @@ this a highly relevant and practical forensics skill.
 
 ---
 
-## Investigation Methodology
+### Investigation Methodology
 
 ### Step 1 — Initial Triage
 Opened all four .pcap files and applied an `smtp` filter to identify which files 
@@ -72,7 +69,7 @@ Red flags identified:
 
 ---
 
-## Phishing Emails Identified
+### Phishing Emails Identified
 
 | Subject Line | Sender | Recipient |
 |---|---|---|
@@ -84,7 +81,7 @@ Red flags identified:
 
 ---
 
-## Key Concepts Demonstrated
+### Key Concepts Demonstrated
 
 - **Network Forensics** — analyzing captured traffic to reconstruct events
 - **SMTP Protocol** — understanding the email transmission handshake
@@ -95,7 +92,7 @@ Red flags identified:
 
 ---
 
-## Lessons Learned
+### Lessons Learned
 
 Analyzing real packet captures reinforced how much information lives in unencrypted 
 network traffic. A single IP sending 24 emails in 3 seconds with rotating spoofed 
