@@ -1,4 +1,4 @@
-# Network Forensics: Business Email Compromise Investigation
+## Network Forensics: Business Email Compromise Investigation
 
 **Tools:** Wireshark · tshark · SMTP Analysis · Network Forensics  
 **Skills:** Packet Analysis · Threat Identification · Email Protocol Forensics  
@@ -105,11 +105,6 @@ domains is a clear behavioral indicator — even before reading the content.
 This project deepened my understanding of why network monitoring and anomaly 
 detection are critical defensive controls.
 
----
-
-## Related
-
-- [Wireshark SMTP Reference](https://www.wireshark.org/docs/)
 
 
 
