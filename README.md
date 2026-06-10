@@ -2,8 +2,6 @@
 
 **Tools:** Wireshark · tshark · SMTP Analysis · Network Forensics  
 **Skills:** Packet Analysis · Threat Identification · Email Protocol Forensics  
-**Context:** CodePath CYB 102 — Unit 1 Project
-
 ---
 
 ## Overview
